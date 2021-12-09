@@ -12,7 +12,7 @@
     "login"
   ],
   "author": "RyrTin",
-  "license": "ISC",
+  "license": "GNU",
   "git repository": "https://github.com/RyrTin/NodejsMongodbLog",
   "dependencies": {
     "express": "^4.17.1"
