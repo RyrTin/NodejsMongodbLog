@@ -13,5 +13,8 @@
   ],
   "author": "RyrTin",
   "license": "ISC",
-  "git repository":"https://github.com/RyrTin/NodejsMongodbLog"
+  "git repository": "https://github.com/RyrTin/NodejsMongodbLog",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
