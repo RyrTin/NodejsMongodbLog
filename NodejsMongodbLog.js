@@ -18,6 +18,10 @@ app.get("/input",(req,res)=>{
     console.log(req.query)
     const kitty = new mydata( { name:req.query.first,health:req.query.second});
     kitty.save()
+    // ejs.renderFile(filename, data, options, function(err, str){
+    //     // str => 输出渲染后的 HTML 字符串
+    // });
+    ejs.renderFile("result.html",{returnval:"success"},(err,str));
 })
 app.listen(10634)
 
